@@ -1,0 +1,26 @@
+
+
+#chatbox {
+    width: 30em;
+    height: 30em;
+
+    overflow: auto;
+    word-wrap: break-word;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 1px solid #000000;
+}
+
+#controls{
+    width: 32em;
+    height: auto;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#user-message{
+    width: 80%;
+    margin-bottom: 5em;
+}
