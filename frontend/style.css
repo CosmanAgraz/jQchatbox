@@ -1,4 +1,11 @@
+h1{
+    width: 30em;
+    height:auto;
 
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1em;;
+}
 
 #chatbox {
     width: 30em;
@@ -13,6 +20,10 @@
     border: 1px solid #000000;
 }
 
+input{
+    margin-bottom: 1em;
+}
+
 #controls{
     width: 32em;
     height: auto;
@@ -22,5 +33,31 @@
 
 #user-message{
     width: 80%;
-    margin-bottom: 5em;
+}
+
+.color-box{
+    display: flex;
+    
+}
+
+.color-button{
+    margin: 0.2em;
+    padding:2em;
+}
+
+#black-button{
+    background-color: black;
+    border: 1px solid black;
+}
+#red-button{
+    background-color: red;
+    border: 1px solid red;
+}
+#blue-button{
+    background-color: blue;
+    border: 1px solid blue;
+}
+#green-button{
+    background-color: green;
+    border: 1px solid green;
 }

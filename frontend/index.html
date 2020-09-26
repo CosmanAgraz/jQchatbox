@@ -22,8 +22,20 @@
       </div>
 
       <div id="controls">
-        <input id="user-message" value="" type="text">
+
+        <input id="user-name" value="" placeholder="username.." type="text">
+        <!-- <button id="send-message" onclick="sendMessage()" >Send</button> -->
+
+        <input id="user-message" value="" placeholder="message.." type="text">
         <button id="send-message" onclick="sendMessage()" >Send</button>
+
+        <div class="color-box">
+          <button id="black-button" class="color-button" onclick="colorSwap(this)"></button>
+          <button id="red-button" class="color-button" onclick="colorSwap(this)"></button>
+          <button id="blue-button" class="color-button" onclick="colorSwap(this)"></button>
+          <button id="green-button" class="color-button" onclick="colorSwap(this)"></button>
+
+        </div>
       </div>
 
       
